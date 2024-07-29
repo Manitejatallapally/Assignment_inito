@@ -1,0 +1,287 @@
+.gridwrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #B4E4F273;
+    margin-top: 60px;
+    margin-inline: auto;
+    border-radius: 20px;
+    padding: 2vw;
+
+
+}
+
+.area1 {
+    display: flex;
+    justify-content: center;
+    background-color: #B4E4F2;
+    border-radius: 20px;
+}
+
+.carouselimg {
+    object-fit: cover;
+}
+
+.area2 {
+    text-align: left;
+
+}
+
+.area3 {
+    text-align: left;
+}
+
+
+.para1 {
+
+    font-weight: 700;
+
+
+}
+
+.para2 {
+
+    font-weight: 500;
+
+
+}
+
+.buttoninito {
+    opacity: 0px;
+    background-color: #1F94AA;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 26px;
+    margin-top: 10px;
+
+}
+
+.checklist {
+    display: grid;
+    grid-template-columns: 40px auto;
+    grid-template-rows: repeat(4, 25px);
+    align-items: center;
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1049px) {
+
+    .gridwrapper {
+        width: 80vw;
+        padding-top: 30px;
+        padding-left: 3vw;
+        grid-template-rows: auto 420px;
+    }
+
+
+    .area1 {
+
+        width: 34.7vw;
+        height: 34.7vw;
+
+    }
+
+
+    .area2 {
+
+        width: 70%;
+        margin-left: 5vw;
+        margin-top: 10px;
+    }
+
+    .area3 {
+        width: 282px;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+
+    .graph {
+        align-self: center;
+        margin-top: 5vw;
+        width: 39.34vw;
+        height: 22vw;
+    }
+
+    .checklist {
+
+        grid-template-rows: repeat(4, 1fr);
+
+
+    }
+
+    .para1 {
+
+        font-size: 27px;
+        line-height: 35px;
+
+
+    }
+
+    .para2 {
+
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .buttoninito {
+        width: 140px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 16px;
+
+
+    }
+
+
+}
+
+@media only screen and (min-width: 1050px) {
+    .gridwrapper {
+        width: 1024px;
+        grid-template-rows: auto 380px;
+    }
+
+    .graph {
+        align-self: center;
+        margin-top: 5vw;
+    }
+
+
+    .area1 {
+
+        width: 445px;
+        height: 445px;
+
+    }
+
+    .area3 {
+
+        width: 445px;
+        height: 445px;
+        margin-top: 5vw;
+    }
+
+
+    .area2 {
+
+        width: 70%;
+        margin-left: 5vw;
+        margin-top: 10px;
+    }
+
+    .para1 {
+
+        font-size: 36px;
+        line-height: 50px;
+
+
+    }
+
+    .para2 {
+
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    .buttoninito {
+        width: 189px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 19.5px;
+        letter-spacing: 0.5px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 650px) {
+    .gridwrapper {
+        align-items: center;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        background-color: white;
+        margin-top: 0px;
+        margin-inline: 0px;
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+    .graph {
+
+        margin-inline: auto;
+        width: 90vw;
+        margin-top: 5vw;
+    }
+
+    .checklist {
+
+        grid-template-rows: repeat(4, 1fr);
+
+
+    }
+
+    .carouselimg {
+        width: 50vw;
+    }
+
+    .area1 {
+
+
+        display: flex;
+        justify-content: center;
+        background-color: #B4E4F2;
+        border-radius: 0px;
+
+
+    }
+
+    .area3 {
+        padding-inline: 10vw;
+        margin-top: 10vw;
+    }
+
+
+    .area2 {
+        background-color: #B4E4F2;
+        grid-row: 1 / 2;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        padding: 50px;
+
+    }
+
+
+
+
+    .para1 {
+
+        font-size: 5vw;
+        line-height: 6.25vw;
+
+
+    }
+
+    .para2 {
+
+        font-size: 3.25vw;
+        line-height: 4.5vw;
+
+
+    }
+
+    .buttoninito {
+        width: 210px;
+        height: 40px;
+        font-size: 2.5vw;
+        line-height: 2.8vw;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+    }
+
+}

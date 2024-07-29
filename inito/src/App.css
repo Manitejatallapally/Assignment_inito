@@ -1,0 +1,32 @@
+.App {
+
+  max-width: 100%;
+  text-align: center;
+  width: 100vw;
+  height: 67.5vw; 
+  background-image: url('./images/headerBG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+@media only screen and (min-width: 1400px){
+  .App{
+    margin-top: -9vw;
+  }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1400px){
+    .App{
+      margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+  .App{
+   background-image: none;
+  
+  }
+}
+
+

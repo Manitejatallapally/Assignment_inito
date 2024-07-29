@@ -1,0 +1,240 @@
+.cardwrapper {
+   
+    width: 844px;
+    border-radius: 20px ;
+    opacity: 0.9px;
+    background-color: white;
+    margin-top: 7vw;
+    box-shadow: 4px 4px 14px 0px #122D351F;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.bottombackground{
+   
+    background: linear-gradient(
+        to bottom, 
+        #ffffff 0%, 
+        #ffffff 50%, 
+        #E1F4FA 50%, 
+        #E1F4FA 100%
+      );
+}
+
+.image1 {
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    margin-top: -30px;
+    margin-right: -20px;
+
+
+}
+
+.text1 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #1F94AA;
+    margin-left: 40px;
+    margin-top: -30px
+}
+
+.text2 {
+
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.text3 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #A0ABAE;
+
+
+}
+
+.text4 {
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #112D35;
+
+
+}
+.doctorprofile{
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.doctorimg{
+    width: 65px;
+    height: 65px;
+}
+.doctorname{
+margin-left: 20px;
+font-size: 15px;
+font-weight: 700;
+line-height: 10px;
+text-align: left;
+
+}
+
+@media only screen and (min-width:671px) and (max-width: 880px){
+    .cardwrapper {
+        width: 650px;
+        padding-bottom: 30px;
+    }
+    
+    .image1 {
+        width: 93px;
+        height: 93px;
+        
+        margin-top: -23px;
+        margin-right: -15.4px;
+    
+    
+    }
+    
+    .text1 {
+        font-size: 11.5px;
+       
+        line-height: 19.25px;
+        margin-left: 31px;
+        margin-top: -23px
+    }
+    
+    .text2 {
+    
+        font-size: 11.5px;
+        line-height: 19.25px;
+        margin-left: 31px;
+        margin-top: 15.4px;
+        margin-right: 38.5px;
+    }
+    
+    .text3 {
+        font-size: 9.24px;
+        line-height: 19.25px;
+    
+        margin-left: 31px;
+        margin-top: 15.4px;
+        
+    }
+    
+    .text4 {
+    
+        font-size: 15.4px;
+        line-height: 19.25px;
+        margin-left: 31px;
+        margin-top: 15.4px;
+    
+    
+    }
+    .doctorprofile{
+        margin-top: 7.7px;
+        margin-left: 31px;
+    }
+    
+    .doctorimg{
+        width: 50px;
+        height: 50px;
+    }
+    .doctorname{
+    margin-left: 15.4px;
+    font-size: 11.5px;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .cardwrapper {
+        width: 80vw;
+        padding-bottom: 5vw;
+    }
+    .bottombackground{
+    
+        background: linear-gradient(
+            to bottom, 
+            #ffffff 0%, 
+            #ffffff 30%, 
+            #E1F4FA 30%, 
+            #E1F4FA 100%
+          );
+    }
+    
+    
+    .image1 {
+        width: 13vw;
+        height: 13vw;
+        
+        margin-top: -3.3vw;
+        margin-right: -2.2vw;
+    
+    
+    }
+    
+    .text1 {
+        font-size: 2vw;
+        line-height: 2.75vw;
+        margin-left: 4.29vw;
+        margin-top: -3.18vw
+    }
+    
+    .text2 {
+    
+        font-size: 2vw;
+        line-height: 2.75vw;
+        margin-left: 4.29vw;
+        margin-top: 2.13vw;
+        margin-right: 5.33vw;
+    }
+    
+    .text3 {
+        font-size: 1.5vw;
+        line-height: 2.75vw;
+        margin-left: 4.29vw;
+        margin-top: 2.13vw;
+        
+    }
+    
+    .text4 {
+    
+        font-size: 2.5vw;
+        line-height: 2.75vw;
+        margin-left: 4.29vw;
+        margin-top: 2.13vw;
+    
+    
+    }
+    .doctorprofile{
+        margin-top: 1.07vw;
+        margin-left: 4.29vw;
+    }
+    
+    .doctorimg{
+        width: 7.3vw;
+        height: 7.3vw;
+    }
+    .doctorname{
+    margin-top: 2.5vw;
+    font-size: 1.8vw;
+    }
+}

@@ -1,0 +1,151 @@
+.footer_background {
+    background-color: #112D35;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 10vw;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    row-gap: 30px;
+    margin-top: 50px;
+
+}
+
+.footer_bottom {
+    background-color: #000000;
+    display: flex;
+    padding-block: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footer_text {
+    color: #869194;
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+
+
+}
+
+.collapsible {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    text-align: left;
+    margin-bottom: 100px;
+
+
+}
+
+.heading_click {
+    Pointer-events: none;
+
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    color: white;
+
+}
+
+.list_elem {
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    color: #A0ABAE;
+
+
+}
+
+
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.sm_icon {
+    height: 29px;
+    width: 29px;
+}
+
+@media only screen and (min-width:651px) and (max-width: 900px) {
+    .footer_background {
+
+        grid-template-columns: 25vw 25vw 25vw;
+
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 10vw;
+        gap: 30px;
+    }
+
+    .social_media {
+        grid-row: 1 /2;
+        grid-column: span 3;
+
+        gap: 8vw;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .footer_background {
+
+        grid-template-columns: 80vw;
+        row-gap: 0px;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 10vw;
+        gap: 30px;
+    }
+
+    .social_media {
+        grid-row: 1 /2;
+
+        gap: 15vw;
+    }
+
+    .heading_click {
+        Pointer-events: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .collapsible {
+        margin-bottom: 0px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+
+    .collapsible_icon_up {
+        color: white;
+        height: 10px;
+        transition: transform 0.6s linear;
+        transform: rotateX(180deg);
+
+    }
+
+    .collapsible_icon_down {
+        color: white;
+        height: 10px;
+        transition: transform 0.6s linear;
+
+    }
+}

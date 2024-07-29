@@ -1,0 +1,178 @@
+.cardbackground {
+    background-color: #E1F4FA;
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.heading {
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.cardflex {
+    width: 933px;
+    height: 440px;
+    margin-top: 5vw;
+    background-color: white;
+    box-shadow: 4px 4px 14px 0px #122D351F;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+
+}
+
+.column1 {
+    padding: 50px;
+    text-align: left;
+}
+
+.heading2 {
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+.fulltext {
+
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 30px;
+
+
+}
+
+@media only screen and (min-width: 660px) and (max-width: 933px) {
+
+    .heading {
+
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+
+    }
+
+    .cardflex {
+        width: 650px;
+        height: 306.5px;
+
+    }
+
+    .column1 {
+        padding: 23px;
+       
+    }
+
+    .heading2 {
+
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .fulltext {
+
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 10px;
+
+
+    }
+
+    .column2 {
+
+        height: 306.5px;
+    }
+}
+
+@media only screen and (max-width: 659px) {
+    .heading {
+        display: none;
+
+    }
+
+    .cardflex {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        border-radius: 0px;
+        height: auto;
+        align-items: center;
+        background: #E1F4FA;
+        margin-top: 0px;
+        box-shadow: none;
+        text-align: left;
+
+
+    }
+
+    .column1 {
+        padding-inline: 10vw;
+        padding-top: 10vw;
+        padding-bottom: 5vw;
+
+    }
+
+    .heading2 {
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .fulltext {
+
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+
+
+    }
+
+    .column2 {
+        width: 100vw;
+        margin-top: 30px;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 651px) {
+    .button_card4 {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 651px) {
+    .button_card4 {
+        width: 210px;
+        height: 40px;
+        background-color: #1F94AA;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 12.19px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: white;
+        border-radius: 26px;
+        border: none;
+        
+
+    }
+
+}
