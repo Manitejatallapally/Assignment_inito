@@ -4,13 +4,20 @@ import gif1 from '../images/Body4images/gif1.gif'
 import gif2 from '../images/Body4images/gif2.gif'
 import gif3 from '../images/Body4images/gif3.gif'
 import gif4 from '../images/Body4images/gif4.gif'
-
+import step1 from '../images/Body4images/step1.mp4'
+import step2 from '../images/Body4images/step2.mp4'
+import step3 from '../images/Body4images/step3.mp4'
+import step4 from '../images/Body4images/step4.mp4'
 
 
 function GifDisplay(props) {
     return (
         <div className='gif_wrapper'>
-            <img src={props.gif} className='body4_gif'></img>
+           
+           <video autoplay="autoplay" loop="loop" muted="muted" oncontextmenu="return false" alt="Loading..." playsinline="true" src={props.gif}></video>
+         
+     
+            {/* <img src={props.gif} className='body4_gif'></img> */}
             <text className='gif_number_mobile' style={{ backgroundColor: props.color }}>
                 {props.number}
             </text>
@@ -40,11 +47,11 @@ export default function Body4() {
                 </div>
 
                 <div className='body4_column2'>
-                    <GifDisplay gif={gif1} color="#BDE0E6" number="1" text="Dip the test strip in urine for 15 seconds." />
-                    <GifDisplay gif={gif2} color="#96CDD7" number="2" text="Attach the Inito Fertility Monitor to your iPhone*." />
+                    <GifDisplay gif={step1} color="#BDE0E6" number="1" text="Dip the test strip in urine for 15 seconds." />
+                    <GifDisplay gif={step2} color="#96CDD7" number="2" text="Attach the Inito Fertility Monitor to your iPhone*." />
                     <text className='body4_text4'>* The Inito Fertility Monitor currently supports iPhone 7 and up. Android phones are not supported at the moment.</text>
-                    <GifDisplay gif={gif3} color="#64B4C3" number="3" text="Insert the test strip into the Inito Fertility Monitor." />
-                    <GifDisplay gif={gif4} color="#1F94AA" number="4" text="Get personalized results on our App in 10 minutes." />
+                    <GifDisplay gif={step3} color="#64B4C3" number="3" text="Insert the test strip into the Inito Fertility Monitor." />
+                    <GifDisplay gif={step4} color="#1F94AA" number="4" text="Get personalized results on our App in 10 minutes." />
                 </div>
             </div>
 

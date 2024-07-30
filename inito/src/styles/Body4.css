@@ -23,12 +23,12 @@
     grid-template-columns: 242px 242px;
 }
 
-.body4_gif {
-    width: 242px;
-    height: 162px;
 
+video{
+    object-fit: cover;
+    width: 242px;
+    height: 136.12px; 
     border-radius: 24px;
-    opacity: 0px;
 
 }
 
@@ -181,9 +181,9 @@
         grid-template-columns: 21.27vw 21.27vw;
     }
 
-    .body4_gif {
+    video {
         width: 21.27vw;
-        height: 14.24vw;
+        height: 11.96vw;
 
         border-radius: 2.1vw;
 
@@ -358,9 +358,9 @@
         margin-top: 30px;
     }
 
-    .body4_gif {
+    video {
         width: 75vw;
-        height: 50.19vw;
+        height: 42.18vw;
         margin-top: 20px;
         border-radius: 24px;
 
@@ -394,7 +394,7 @@
         font-size: 20px;
         font-weight: 700;
         position: relative;
-        top: -52vw;
+        top: -45vw;
         left: -37.5vw
     }
 
